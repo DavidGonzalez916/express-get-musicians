@@ -5,4 +5,4 @@ let Musician = db.define('musician', {
     instrument : Sequelize.STRING
 });
 
-module.exports = Musician;
+module.exports = { Musician };
